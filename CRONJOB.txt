@@ -1,0 +1,19 @@
+Commands as following
+1. sudo apt update
+2. sudo apt install cron
+3. sudo systemctl start cron
+4. crontab -e
+5. Create a new CRONJOB/CRONTAB -->
+    */2 * * * * ( ROOT OF PYTHON ENVIRONMENT ) ( ROOT OF PYTHON SCRIPT ) >> ( ROOT OF SAVING LOGS OR FILE ) 2>&1
+6. sudo systemctl restart cron
+7. chmod +X script_path
+8. INCASE YOU WANT TO REMOVE CROJOB [ crontab -r ]
+9. INCASE YOU WANT TO LIST OUT CRONJOB  [ crontab -l ]
+
+
+
+NOTE:
+---> DOWNLOAD LATEST VERSION OF CHROMIUME AS PER REQUIREMENT
+---> FOLLOW THIS LINK TO ADD DRIVER OPTIONS
+        (https://stackoverflow.com/questions/53073411/selenium-webdriverexceptionchrome-failed-to-start-crashed-as-google-chrome-is)
+WOALLLAA!!! WORK DONE... :)
